@@ -1,5 +1,13 @@
 # Project Management
 
+<p align="center">
+	<a href="https://github.com/ZainDevX/Project-Management-Tool/actions"><img src="https://img.shields.io/badge/build-passing-22c55e?style=for-the-badge" alt="Build status"></a>
+	<a href="https://github.com/ZainDevX/Project-Management-Tool"><img src="https://img.shields.io/badge/react-19-61dafb?style=for-the-badge&logo=react&logoColor=000000" alt="React 19"></a>
+	<a href="https://vite.dev"><img src="https://img.shields.io/badge/vite-7-646cff?style=for-the-badge&logo=vite&logoColor=ffffff" alt="Vite"></a>
+	<a href="https://redux-toolkit.js.org"><img src="https://img.shields.io/badge/redux%20toolkit-state%20management-764abc?style=for-the-badge&logo=redux&logoColor=ffffff" alt="Redux Toolkit"></a>
+	<a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/tailwind%20css-4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=ffffff" alt="Tailwind CSS"></a>
+</p>
+
 A modern project management dashboard for organizing workspaces, projects, tasks, and team collaboration in one place. The app is built with React and Vite, with Redux Toolkit handling application state and Tailwind CSS powering the UI.
 
 ## Overview
