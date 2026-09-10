@@ -1,85 +1,81 @@
-<div align="center">
-  <h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
-   project-management</h1>
-  <p>
-    An open-source project management platform built with ReactJS and Tailwind CSS.
-  </p>
-  <p>
-    <a href="https://github.com/GreatStackDev/project-management/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/project-management?style=for-the-badge" alt="License"></a>
-    <a href="https://github.com/GreatStackDev/project-management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
-    <a href="https://github.com/GreatStackDev/project-management/issues"><img src="https://img.shields.io/github/issues/GreatStackDev/project-management?style=for-the-badge" alt="GitHub issues"></a>
-  </p>
-</div>
+# Project Management
 
----
+A modern project management dashboard for organizing workspaces, projects, tasks, and team collaboration in one place. The app is built with React and Vite, with Redux Toolkit handling application state and Tailwind CSS powering the UI.
 
-## 📖 Table of Contents
+## Overview
 
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#-tech-stack)
-- [🚀 Getting Started](#-getting-started)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+This project provides a clean workspace for tracking work across teams. It includes project views, task management, analytics, team tools, and calendar-oriented planning screens.
 
----
+## Features
 
-## 📝 Features <a name="-features"></a>
+- Workspace-based project organization
+- Project and task management flows
+- Team member invitations and collaboration tools
+- Analytics and progress summaries
+- Calendar and activity views
+- Responsive dashboard layout
 
-- **Multiple Workspaces:** Allow multiple workspaces to be created, each with its own set of projects, tasks, and members.
-- **Project Management:** Manage projects, tasks, and team members.
-- **Analytics:** View project analytics, including progress, completion rate, and team size.
-- **Task Management:** Assign tasks to team members, set due dates, and track task status.
-- **User Management:** Invite team members, manage user roles, and view user activity.
+## Tech Stack
 
-## 🛠️ Tech Stack <a name="-tech-stack"></a>
+- React 19
+- Vite
+- Redux Toolkit
+- React Router
+- Tailwind CSS
+- Recharts
+- Lucide React
 
-- **Framework:** ReactJS
-- **Styling:** Tailwind CSS
-- **UI Components:** Lucide React for icons
-- **State Management:** Redux Toolkit
+## Getting Started
 
-## 🚀 Getting Started <a name="-getting-started"></a>
+### Prerequisites
 
-First, install the dependencies. We recommend using `npm` for this project.
+- Node.js 18 or newer
+- npm
+
+### Installation
 
 ```bash
 npm install
 ```
 
-Then, run the development server:
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Open the local app at `http://localhost:5173`.
 
-You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.
+### Production Build
 
----
+```bash
+npm run build
+```
 
-## 🤝 Contributing <a name="-contributing"></a>
+### Preview the Build
 
-We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details on how to get started.
+```bash
+npm run preview
+```
 
----
+## Available Scripts
 
-## 📜 License <a name="-license"></a>
+- `npm run dev` starts the Vite development server.
+- `npm run build` creates a production-ready build.
+- `npm run preview` serves the production build locally.
+- `npm run lint` runs ESLint across the project.
 
-This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
+## Project Structure
 
-# Initial import
+- `src/App.jsx` application shell and routing entry point
+- `src/main.jsx` application bootstrap
+- `src/app/` Redux store, assets, and schema files
+- `src/components/` reusable UI components
+- `src/pages/` page-level views
+- `src/features/` Redux feature slices
+- `src/styles/` global and dashboard styles
+- `public/` static assets
 
-Commit 1: Project initialized with base files.
+## Notes
 
-
-Commit 4: Added development and CI notes.
-
-
-Commit 10: Architecture overview added.
+The repository has been cleaned to keep only the main application source and build configuration.
